@@ -22,7 +22,7 @@
         <span class="original-price">$169.99</span>
       </div>
       <button class="add-cart">
-        <div class="button-content">
+        <span class="button-content">
           <img
             src="../assets/icon-cart.svg"
             height="16"
@@ -30,7 +30,7 @@
             alt="weenus"
           />
           <span class="button-text">Add to Cart</span>
-        </div>
+        </span>
       </button>
     </div>
   </div>
