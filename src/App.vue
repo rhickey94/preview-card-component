@@ -9,8 +9,8 @@ console.log(mq);
 
 <template>
   <main>
-    <PreviewCardMobile v-if="!mq.laptop" />
-    <PreviewCardDesktop v-if="mq.laptopPlus" />
+    <PreviewCardMobile v-if="mq.mobile" />
+    <PreviewCardDesktop v-if="mq.desktop" />
   </main>
 </template>
 

@@ -6,6 +6,9 @@ import "./assets/base.css";
 
 const app = createApp(App);
 app.use(Vue3Mq, {
-  preset: "devices",
+  breakpoints: {
+    mobile: 0,
+    desktop: 1440,
+  },
 });
 app.mount("#app");
